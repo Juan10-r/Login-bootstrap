@@ -3,26 +3,39 @@
 Este proyecto es una interfaz web simple para gestionar el inicio de sesión, recuperación de contraseña y registro de nuevos usuarios utilizando HTML, CSS (Bootstrap 5) y JavaScript. Ideal como base para conectar con un backend en PHP, Node.js, Python u otra tecnología.
 
 ## 🖼️ Vista General
-![login-preview](./img/inicio%20sesion.png)
-![login-preview](./img/reestablecer%20contraseña.png)
-![login-preview](./img/registro%20usuario.png)
+![login-preview](./img/inicioSesion.png)
+![login-preview](./img/reestaurarcontraseña.png)
+![login-preview](./img/registrousuario.png)
 
 El proyecto incluye tres páginas principales:
 
 - **Inicio de sesión**: Formulario para que el usuario acceda a su cuenta.
 - **Recuperación de contraseña**: Envía un correo para restablecer la contraseña (interfaz).
 - **Registro**: Permite a los usuarios registrarse ingresando datos personales y credenciales.
+**Estructura modular** dividida por carpetas: `css`, `html`, `js` e `img`.
 
 ## 📁 Estructura del Proyecto
-/tu-proyecto/
+```plainet
+PROYECTO_J/
 │
-├── index.html                #Pagina principal para el inicio de Sesion
-├── /html/
-│ ├── Recuperar.html          #Pagina para la recuperacion de la contraseña
-│ └── login.html              #Pagina para el registro de ususarios
-├── /Js/
-│ └── aprender.js             #Codigo JavaScript
-└── README.md
+├── css/
+│ ├── principal.css # Estilos para la página principal
+│ └── styles.css # Estilos generales del proyecto
+│
+├── html/
+│ ├── login.html # Página de inicio de sesión
+│ ├── paginap.html # Página principal (acceso autorizado)
+│ └── recuperar.html # Página para recuperar contraseña
+│
+├── img/
+│ └── (imágenes utilizadas en la interfaz)
+│
+├── Js/
+│ ├── aprender.js # Lógica adicional (posiblemente educativa o de pruebas)
+│ └── login.js # Lógica de validación de usuario
+│
+├── index.html # Punto de entrada del proyecto (puede redirigir a login)
+└── README.md # Documentación del proyecto
 
 ## 🚀 Tecnologías Utilizadas
 

@@ -35,18 +35,3 @@ var impresion = "";
 //Swal.fire(impresion);
 //console.log (array_mixto)
 
-document.addEventListener("DOMContentLoaded", function () {
-    const form = document.querySelector("form");
-
-    form.addEventListener("submit", function (event) {
-        event.preventDefault(); // Evita que se recargue la página
-
-        // Mostrar la alerta de SweetAlert2
-        Swal.fire({
-            icon: "error",
-            title: "Oops...",
-            text: "Datos incorrectos",
-            footer: '<a href="#">¿Necesitas ayuda?</a>'
-        });
-    });
-});

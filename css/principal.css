@@ -11,7 +11,7 @@
   }
   
   header {
-    background-color: green;
+    background-color: rgb(255, 0, 0);
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -47,7 +47,7 @@
   
   .ofertas h2 {
     margin-bottom: 30px;
-    color: #2e7d32;
+    color: #f80202;
   }
   
   .productos {
